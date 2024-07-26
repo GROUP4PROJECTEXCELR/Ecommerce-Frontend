@@ -2,8 +2,8 @@ import React,{useState} from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
 
-import shopbag from '../Assets/shopbag.png'
-import cartIcon from '../Assets/cart-icon.png'
+import shopbag from '../Assets/shop_bag.png'
+import cartIcon from '../Assets/cart_icon.png'
 
 export const Navbar = () => {
     const[menu,setMenu]=useState("buy");

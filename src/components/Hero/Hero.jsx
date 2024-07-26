@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import hand_icon from '../Assets/hand_icon.jpg'
+import hand_icon from '../Assets/wave_hand.png'
 import hero_image from '../Assets/hero_image.png'
 import arrow_icon from '../Assets/arrow-icon.png'
 
