@@ -2,6 +2,7 @@ import React from 'react'
 
 import { Popular } from '../components/popular/popular'
 import { Offers } from '../components/Offers/Offers'
+import { NewCollections } from '../components/NewCollections/NewCollections'
 
 
 export const Shop = () => {
@@ -11,6 +12,7 @@ export const Shop = () => {
 
       <Popular/>
       <Offers/>
+      <NewCollections/>
     </div>
  
   )
