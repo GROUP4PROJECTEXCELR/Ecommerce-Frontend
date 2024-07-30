@@ -8,8 +8,8 @@
 }
 .login-container{
     width:569px;
-    height: 600px;
-    
+    height: 500px;
+    border:1px solid #5c5c5c;
     margin:auto;
     padding:10px 20px;
     align-items: center;
@@ -34,7 +34,7 @@
     outline:none;
     color:#5c5c5c;
     font-size: 18px;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 .login-container button {
     width: 530px;
@@ -47,16 +47,17 @@
     font-weight: 500;
     text-align: center;
     cursor: pointer;
-    border-radius: 30px;
+    border-radius: 10px;
     display: flex; /* Make the button a flex container */
     align-items: center; /* Center items vertically */
     justify-content: center; /* Center items horizontally */
     padding: 0; /* Ensure padding doesn't affect centering */
-    line-height: 1; /* Adjust line-height to center text */
+    line-height: 1; 
+    margin-top: 30px;/* Adjust line-height to center text */
 }
 
 .login-signup{
-    margin-top: 5px;
+    margin-top: 30px;
 color:#5c5c5c;
 font-size: 18px;
 font-weight: 500;
@@ -69,7 +70,7 @@ font-weight: 500;
     
 }
 .Forget{
-    margin-top: 10px;
+    margin-top: 30px;
     display: flex;
     justify-content: flex-end;
 }

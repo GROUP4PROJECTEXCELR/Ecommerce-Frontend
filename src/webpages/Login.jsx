@@ -1,5 +1,4 @@
 import React from 'react'
-<<<<<<< HEAD
 import './CSS/Login.css'
 
 export const Login = () => {
@@ -20,11 +19,5 @@ export const Login = () => {
   </div>
       </div>
     </div>
-=======
-
-export const Login = () => {
-  return (
-    <div>Login</div>
->>>>>>> 72af270e7e7491f6b368eab073373b4bf4ffc4e9
   )
 }
