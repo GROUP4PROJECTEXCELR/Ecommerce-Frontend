@@ -3,6 +3,8 @@ import { useParams } from 'react-router-dom';
 import { ShopContext } from '../context/ShopContext';
 import { BreadCrum } from '../components/BreadCrums/BreadCrum';
 import { ProductDisplay } from '../components/ProductDisplay/ProductDisplay';
+import { DescriptionBox } from '../components/DescriptionBox/DescriptionBox';
+import { RelatedProducts } from '../components/RelatedProducts/RelatedProducts';
 
 export const Product = () => {
   const { productId } = useParams();
@@ -28,6 +30,8 @@ export const Product = () => {
         {/* Render other product details */}
       </div>
       <ProductDisplay product={product}/>
+      <DescriptionBox/>
+      <RelatedProducts/>
       </div>
   );
 };
