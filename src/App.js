@@ -21,10 +21,14 @@ function App() {
         <Hero/>
         <Routes>
           <Route path="/" element={<Shop />} />
+
           <Route path="mens" element={<CategoryItem category="Men" />} />
           <Route path="womens" element={<CategoryItem category="Women" />} />
           <Route path="kids" element={<CategoryItem category="Kids" />} />
           <Route path="product/:productId" element={<Product />} />
+
+
+         
             <Route path="/cart" element={<Cart />} />
             <Route path="/login" element={<Login />} />
          
