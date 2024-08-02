@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import './ProductDisplay.css'
 import star_icon from '../Assets/star_icon.png'
 import star_dull from '../Assets/star_dull.png'
-import { ShopContext } from '../../context/ShopContext'
+import { ShopContext } from '../../webpages/ShopContext'
 
 export const ProductDisplay = (props) => {
   const{product} =props;
@@ -13,10 +13,10 @@ export const ProductDisplay = (props) => {
 
       <div className="productdisplay-left">
         <div className="productdisplay-img-list">
-          <img src={product.image} alt="Product thumbnail" className='product'></img>
+          {/* <img src={product.image} alt="Product thumbnail" className='product'></img>
           <img src={product.image} alt="Product thumbnail" className='product'></img>
           <img src={product.image} alt="Product thumbnail"className='product'></img>
-          <img src={product.image} alt="Product thumbnail"className='product'></img>
+          <img src={product.image} alt="Product thumbnail"className='product'></img> */}
         </div>
 <div className="productdisplay-img">
   <img className='productdisplay-main-img' src={product.image }alt="Main product" ></img>
