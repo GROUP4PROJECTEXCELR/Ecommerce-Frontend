@@ -1,0 +1,119 @@
+.product{
+    max-width: 200px;
+max-height: 200px;
+}
+.star{
+    max-width: 20px;
+    max-height: 20px;
+}
+.ProductDisplay{
+    display:flex;
+   
+    margin: 10px 80px;
+}
+.productdisplay-left{
+    display: flex;
+    gap:17px;
+    padding:1px;
+    margin:0;
+}
+.productdisplay-img-list{
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+.productdisplay-img-list img{
+    height:163px;
+}
+.productdisplay-main-img{
+width:400px;
+height:600px;
+}
+.productdisplay-right{
+    margin:0px ;
+    gap:5px;
+    display: flex;
+    flex-direction: column;
+    
+    
+   
+
+}
+.productdisplay-right h1{
+    color:#3d3d3d;
+    font-size: 40px;
+    font-weight: 600;
+}
+.productdisplay-right-star{
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    gap:5px;
+    color:#1c1c1c;
+    font-size: 13px;
+}
+.productdisplay-right-prices{
+    display: flex;
+    margin: 40px 0px;
+    gap:30px;
+    font-size: 24px;
+    font-weight: 600;
+    flex-direction: column;
+
+}
+.productdisplay-right-old{
+color:#818181;
+text-decoration: line-through;
+}
+.productdisplay-right-new{
+color:#ff4141;
+}
+.productdisplay-right-size {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.productdisplay-right-size h1 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.productdisplay-right-sizes {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.productdisplay-right-sizes div {
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.productdisplay-right-sizes div:hover {
+    background-color: #f0f0f0;
+}
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff4141;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+button:hover {
+    background-color: #e03e3e;
+}
+.productdisplay-right-category {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #1c1c1c;
+}
+
+.productdisplay-right-category span {
+    font-weight: 600;
+}
